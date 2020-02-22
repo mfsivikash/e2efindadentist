@@ -24,7 +24,7 @@ var timeNow = (new Date()).toString().replace(/:/g, '-');
 exports.config = {
     // The address of a running selenium server.
 
-    seleniumAddress: seleniumServer,
+    seleniumAddress: 'http://localhost:4444/wd/hub',
     
 
     plugins: [
